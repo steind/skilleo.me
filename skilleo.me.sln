@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skilleo.challenges", "skilleo.challenges\skilleo.challenges.csproj", "{A3702632-E9AF-44CD-91BE-AE993660099C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skilleo.tests", "skilleo.tests\skilleo.tests.csproj", "{A7819946-6393-4028-86FC-31657F6CE42F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3702632-E9AF-44CD-91BE-AE993660099C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3702632-E9AF-44CD-91BE-AE993660099C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3702632-E9AF-44CD-91BE-AE993660099C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3702632-E9AF-44CD-91BE-AE993660099C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7819946-6393-4028-86FC-31657F6CE42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7819946-6393-4028-86FC-31657F6CE42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7819946-6393-4028-86FC-31657F6CE42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7819946-6393-4028-86FC-31657F6CE42F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
