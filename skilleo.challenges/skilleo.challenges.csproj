@@ -43,6 +43,7 @@
     <Compile Include="DateValidatorChallenge.cs" />
     <Compile Include="EmailAddressValidationChallenge.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RockPaperScissorTournament.cs" />
     <Compile Include="TextAnalyticsChallenge.cs" />
     <Compile Include="TheBruteForceChallenge.cs" />
   </ItemGroup>
