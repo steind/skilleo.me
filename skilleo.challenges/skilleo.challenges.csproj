@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DateValidatorChallenge.cs" />
     <Compile Include="EmailAddressValidationChallenge.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
