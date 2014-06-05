@@ -56,6 +56,7 @@
     <Compile Include="RockPaperScissorTournament.cs" />
     <Compile Include="TextAnalytics.cs" />
     <Compile Include="TheBruteForce.cs" />
+    <Compile Include="ThePasswordStrength.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\skilleo.challenges\skilleo.challenges.csproj">

@@ -46,6 +46,7 @@
     <Compile Include="RockPaperScissorTournament.cs" />
     <Compile Include="TextAnalyticsChallenge.cs" />
     <Compile Include="TheBruteForceChallenge.cs" />
+    <Compile Include="ThePasswordStrength.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
