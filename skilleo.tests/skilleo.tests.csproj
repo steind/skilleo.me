@@ -54,6 +54,7 @@
     <Compile Include="EmailAddressValidation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TextAnalytics.cs" />
+    <Compile Include="TheBruteForce.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\skilleo.challenges\skilleo.challenges.csproj">
