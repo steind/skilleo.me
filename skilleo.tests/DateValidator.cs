@@ -12,9 +12,7 @@ namespace skilleo.tests
         [TestMethod]
         public void InputWithLessThanTwoDates_ShouldBeInvalid()
         {
-            const string input = "12/23/2013";
-
-            var output = DateValidatorChallenge.ProcessInput(input);
+            var output = new DateValidatorChallenge().ProcessInput("12/23/2013");
 
             Assert.IsTrue(output == InvalidString);
         }
@@ -22,9 +20,7 @@ namespace skilleo.tests
         [TestMethod]
         public void InputWithMoreThanTwoDates_ShouldBeInvalid()
         {
-            const string input = "12/23/2013 - 10/01/2014 - 12/31/2014";
-
-            var output = DateValidatorChallenge.ProcessInput(input);
+            var output = new DateValidatorChallenge().ProcessInput("12/23/2013 - 10/01/2014 - 12/31/2014");
 
             Assert.IsTrue(output == InvalidString);
         }
@@ -32,9 +28,7 @@ namespace skilleo.tests
         [TestMethod]
         public void InputWithFirsDateBeforeSecondDate_ShouldBeValid()
         {
-            const string input = "12/23/2013 - 10/01/2014";
-
-            var output = DateValidatorChallenge.ProcessInput(input);
+            var output = new DateValidatorChallenge().ProcessInput("12/23/2013 - 10/01/2014");
 
             Assert.IsTrue(output == ValidString);
         }
@@ -42,9 +36,7 @@ namespace skilleo.tests
         [TestMethod]
         public void InputWithFirsDateEqualToSecondDate_ShouldBeInvalid()
         {
-            const string input = "12/23/2013 - 12/23/2013";
-
-            var output = DateValidatorChallenge.ProcessInput(input);
+            var output = new DateValidatorChallenge().ProcessInput("12/23/2013 - 12/23/2013");
 
             Assert.IsTrue(output == InvalidString);
         }
@@ -52,9 +44,7 @@ namespace skilleo.tests
         [TestMethod]
         public void InputWithFirsDateAfterToSecondDate_ShouldBeInvalid()
         {
-            const string input = "12/23/2013 - 12/23/2010";
-
-            var output = DateValidatorChallenge.ProcessInput(input);
+            var output = new DateValidatorChallenge().ProcessInput("12/23/2013 - 12/23/2010");
 
             Assert.IsTrue(output == InvalidString);
         }
@@ -62,9 +52,7 @@ namespace skilleo.tests
         [TestMethod]
         public void InputWithWrongFormattedDate_ShouldBeInvalid()
         {
-            const string input = "11/22/2013 - 23/01/2015";
-
-            var output = DateValidatorChallenge.ProcessInput(input);
+            var output = new DateValidatorChallenge().ProcessInput("11/22/2013 - 23/01/2015");
 
             Assert.IsTrue(output == InvalidString);
         }

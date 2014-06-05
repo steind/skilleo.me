@@ -1,15 +1,15 @@
 ﻿namespace skilleo.challenges
 {
-    public class EmailAddressValidationChallenge
+    public class EmailAddressValidationChallenge : Challenge
     {
-        public static string ProcessInput(string input)
+        public override string ProcessInput(string input)
         {
-            var result = "Valid";
+            var result = ValidString;
 
             if (input.Contains(" "))
             {
                 // input must not contain spaces
-                result = "Invalid";
+                result = InvalidString;
             }
 
             return result;

@@ -6,25 +6,20 @@ namespace skilleo.tests
     [TestClass]
     public class EmailAddressValidation
     {
-        private const string ValidString = "Valid";
-        private const string InvalidString = "Invalid";
-
         [TestMethod]
         public void SampleInput1_ShouldBeInvalid()
         {
-            const string input = "random text";
-            var output = EmailAddressValidationChallenge.ProcessInput(input);
+            var output = new EmailAddressValidationChallenge().ProcessInput("random text");
 
-            Assert.IsTrue(output == InvalidString);
+            Assert.IsTrue(output == Challenge.InvalidString);
         }
 
         [TestMethod]
         public void SampleInput2_ShouldBeValid()
         {
-            const string input = "some_name@email.com";
-            var output = EmailAddressValidationChallenge.ProcessInput(input);
+            var output = new EmailAddressValidationChallenge().ProcessInput("some_name@email.com");
 
-            Assert.IsTrue(output == ValidString);
+            Assert.IsTrue(output == Challenge.ValidString);
         }
     }
 }
