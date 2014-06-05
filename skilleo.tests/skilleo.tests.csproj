@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="DateValidator.cs" />
     <Compile Include="EmailAddressValidation.cs" />
+    <Compile Include="MultiOperationCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RockPaperScissorTournament.cs" />
     <Compile Include="TextAnalytics.cs" />
